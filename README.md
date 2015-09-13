@@ -40,7 +40,7 @@ Modify the ssh config
 	$ touch config
 	$ subl -a config
 
-Then added
+Then add
 
 	#user1 account
 	Host github.com-user1
@@ -59,12 +59,12 @@ Modify your Git config using script
 ---------------------------------------------
 Put github_user.sh in your github folder
 
-  $ mv github_user.sh ~/YOUR-DIRECTORY-HERE/
+  	$ mv github_user.sh ~/YOUR-DIRECTORY-HERE/
   
 then make the script executable
 
-  $ cd YOUR-DIRECTORY-HERE/
-  $ chmod +x github_user.sh
+  	$ cd YOUR-DIRECTORY-HERE/
+	$ chmod +x github_user.sh
 
 then edit the script to add your users
 
